@@ -9,12 +9,11 @@ const button = document.getElementById('button');
 // set event listeners to update state and DOM
 
 button.addEventListener('click', () => {
-  console.log(input.value);
 
-  const resultSpan = document.getElementById('output');
-  const inputValue = Number(input.value);
+    const resultSpan = document.getElementById('output');
+    const inputValue = Number(input.value);
 
-  resultSpan.textContent = makeFizzBuzz(inputValue);
+    resultSpan.textContent = makeFizzBuzz(inputValue);
 
 });
 
